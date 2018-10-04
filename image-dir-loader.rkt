@@ -40,8 +40,6 @@
          (string-replace s ".png" ""))
        ,load-func))
 
-
-  
   (datum->syntax stx
    `(begin
       ,@(map strip-png

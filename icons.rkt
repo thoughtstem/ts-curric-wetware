@@ -28,7 +28,8 @@
                        (text "?")
                        5))
 
-
+(provide big-tshirt-joke)
+(define big-tshirt-joke (local-bitmap "tshirt-joke.png"))
 
 (define (thick-frame f)
   (cc-superimpose
