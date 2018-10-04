@@ -1,0 +1,40 @@
+#lang slideshow
+
+
+
+(define brain (scale
+               (local-bitmap "brain.png")
+               0.1))
+
+
+(define world (scale
+               (local-bitmap "world.png")
+               0.1))
+
+(define tree (scale
+              (local-bitmap "tree.png")
+              0.1))
+
+(define stomach (scale
+                 (local-bitmap "stomach.png")
+                 0.1))
+
+(define mouth (scale
+               (local-bitmap "mouth.png")
+               0.1))
+
+(define apple (scale
+               (local-bitmap "apple.png")
+               0.1))
+
+(define blob (scale
+               (local-bitmap "blob.png")
+               0.1))
+
+(define poop (scale
+               (local-bitmap "poop.png")
+               0.1))
+
+(define question-mark (scale
+                       (text "?")
+                       5))
