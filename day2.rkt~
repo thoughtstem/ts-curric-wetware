@@ -1,6 +1,6 @@
 #lang racket
 
-
+#;(
   ;How does this work?
   ;  How do we get our brains to do this?
   ;  Do other people's brains already do this?
@@ -33,3 +33,4 @@
 
 
   (slide #:title "How old are algorithms?" history-math-alg-1)
+)
